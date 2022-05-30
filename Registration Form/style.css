@@ -1,0 +1,58 @@
+table{
+	margin-top: 50px;
+	text-align: center;
+	border: 10px;
+	border-color: solid blueviolet;
+	border-collapse: collapse;
+}
+
+#show td{
+	padding: 13px;
+	border: 1px;
+	border-style: solid;
+	border-color: paleturquoise;
+	background-color: rgb(219, 114, 200);
+}
+
+#btna td input{
+	margin-top: 5%;
+	padding: 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	outline: none;
+	background: linear-gradient(
+		90deg,
+		rgb(0, 238, 255) 0%,
+		rgb(255, 2, 150) 100%
+	);
+	color: rgb(255, 255, 255);
+	
+	text-transform: capitalize;
+
+}
+#btna td input:hover{
+	background: linear-gradient(
+	  90deg,
+	  rgb(51, 255, 0) 0%,
+	  rgb(2, 15, 255) 100%
+	);
+  }
+
+
+#show th{
+	padding: 13px;
+	border: 1px;
+	border-style: solid;
+	border-color: rgb(0, 0, 0);
+	background: linear-gradient(
+    90deg,
+    rgb(51, 255, 0) 0%,
+    rgb(2, 15, 255) 100%
+    
+  );
+}
+
+body{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnt8KZMU4LCJcYNyEle15G18PcyGNR1gl_4Q&usqp=CAU);
+}
